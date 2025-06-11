@@ -1,17 +1,15 @@
 @font-face {
-  font-family: Raleway;
+  font-family: Roboto;
   src:
-    url(./Raleway-Regular.woff2) format('woff2'),
-    url(./Raleway-Regular.woff) format('woff');
+    url(./Roboto-Regular.ttf) format('truetype');
   font-weight: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: Raleway;
+  font-family: Roboto;
   src:
-    url(./Raleway-Bold.woff2) format('woff2'),
-    url(./Raleway-Bold.woff) format('woff');
+    url(./Roboto-Bold.ttf) format('truetype');
   font-weight: bold;
   font-display: swap;
 }

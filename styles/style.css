@@ -1,1 +1,114 @@
-/* место для вашего кода */
+.header {
+    font-style: normal;
+    font-size: 38px;
+    font-weight: 100;
+}
+
+
+
+.card {
+    position: relative;
+    display: grid;
+    grid-template-rows: 201px min-content min-content min-content  40px;
+    width: 100%;
+
+    min-height: 601px;
+    width: 266px;
+
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 36px;
+}
+
+.background_gradient_yellow {
+    background: linear-gradient(to bottom, #FDC624, #E6C434);
+
+}
+
+.img__snail {
+    margin-top: 72px;
+    margin-bottom: 26px;
+    width: 100%;
+}
+
+.card__header {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-items: start;
+    width: 100%;
+}
+
+.card__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #fff;
+}
+
+.card__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+}
+
+.card__price {
+   display: grid;
+   grid-template-columns: 10px auto;
+   margin-top: 27px;
+
+}
+
+.card__curency {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.card__amount {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 67px;
+    color: #fff;
+}
+
+.card__features {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    padding-left: 12px;
+    margin-top: 4px;
+    gap: 14px;
+}
+ 
+.card__features-item {
+    
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    list-style-type: "✓";
+    padding-left: 8px;    
+}
+
+
+
+.start-button {
+    justify-self: end;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: white;
+    background-color: transparent;
+}
