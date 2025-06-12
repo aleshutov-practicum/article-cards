@@ -6,29 +6,104 @@
 
 
 
-.card {
-    position: relative;
-    display: grid;
-    grid-template-rows: 201px min-content min-content min-content  40px;
-    width: 100%;
+.page__heading {
+    padding-left: 64px;
+    padding-top: 180px;
+    padding-bottom: 27px;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
 
+.lots__card-list {
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 6px;
+    padding-left: 24px;
+}
+
+.lots__card-list-item {
+    position: relative;
+    display: block;
+    /* width: 334px; */
+
+    text-decoration: none;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+
+
+.card {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
     min-height: 601px;
     width: 266px;
 
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 36px;
+
 }
+
+.card_content {
+    position: relative;
+    display: grid;
+    grid-template-rows: 201px min-content min-content min-content ;
+    padding: 0;
+    margin: 0;
+}
+
+
 
 .background_gradient_yellow {
     background: linear-gradient(to bottom, #FDC624, #E6C434);
-
 }
 
+.background_gradient_turquoise {
+    background: linear-gradient(to bottom, #55DCE7, #3DCAD4);
+}
+
+.background_gradient_blue {
+    background: linear-gradient(to bottom, #6BDFFF, #3DACFC);
+}
+
+.background_gradient_grey {
+    background: linear-gradient(to bottom, #BFCEDC, #939FB3);
+}
+
+
+
 .img__snail {
+    justify-self: center;
+    width: auto;
     margin-top: 72px;
-    margin-bottom: 26px;
-    width: 100%;
+}
+
+.img__car {
+    justify-self: center;
+    width: auto;
+    margin-top: 64px;
+}
+
+.img__minibus {
+    justify-self: center;
+    width: auto;
+    margin-top: 48px;
+}
+
+.img__cannon {
+    justify-self: center;
+    width: auto;
+    margin-top: 66.15px;
 }
 
 .card__header {
@@ -44,6 +119,7 @@
     font-weight: 500;
     font-size: 21px;
     color: #fff;
+    margin-bottom: 2px;
 }
 
 .card__subtitle {
@@ -56,7 +132,7 @@
 .card__price {
    display: grid;
    grid-template-columns: 10px auto;
-   margin-top: 27px;
+   margin-top: 29px;
 
 }
 
@@ -71,6 +147,7 @@
     font-weight: 700;
     font-size: 67px;
     color: #fff;
+    line-height: 1.15;
 }
 
 .card__features {
@@ -79,7 +156,7 @@
     flex-direction: column;
     justify-items: flex-start;
     padding-left: 12px;
-    margin-top: 4px;
+    margin-top: 8px;
     gap: 14px;
 }
  
@@ -92,11 +169,21 @@
     padding-left: 8px;    
 }
 
+/* ::marker {
+  content: url('./images/check.svg');
+} */
 
-
-.start-button {
-    justify-self: end;
+.card__button-wrapper {
     position: relative;
+  
+  align-items: flex-end;
+  justify-self: center;
+  align-self: self-end;
+}
+
+.card-button {
+    
+    position: relative; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,11 +191,44 @@
     font-weight: 500;
     font-size: 14px;
 
-    box-shadow: none;
-    width: 100%;
+    
+    
+    
+    margin-top: 20px;
     height: 40px;
-    border-width: 2px;
+    
     border-radius: 2px;
-    border-color: white;
-    background-color: transparent;
+    border: 2px solid white;
+    background: transparent;
+    transition: background 0.3s, color 0.3s;
+    cursor: pointer;
 }
+
+.card-button:hover {
+    background: white;
+     color: rgba(0,0,0,0.3)
+}
+
+.banner {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 31px;
+    
+    padding-left:unset;
+    padding-right:unset;
+}
+
+.banner_text {
+    
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    
+}
+
+
+
+
