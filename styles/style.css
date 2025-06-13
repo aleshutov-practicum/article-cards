@@ -1,34 +1,14 @@
-.header {
-    font-style: normal;
-    font-size: 38px;
-    font-weight: 100;
-}
-
-
-
-.page__heading {
-    padding-left: 64px;
-    padding-top: 180px;
-    padding-bottom: 27px;
-    font-weight: 700;
-    font-size: 40px;
-    text-transform: uppercase;
-}
-
 .lots__card-list {
     display: flex;
-    justify-content: center;
-
     flex-wrap: wrap;
+    justify-content: center;
     gap: 6px;
-    padding-left: 24px;
+    padding-bottom: 190px;
 }
 
 .lots__card-list-item {
     position: relative;
     display: block;
-    /* width: 334px; */
-
     text-decoration: none;
 }
 
@@ -36,33 +16,23 @@
     text-decoration: none;
 }
 
-
-
 .card {
     position:relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    
     min-height: 601px;
     width: 266px;
-
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-bottom: 36px;
-
 }
 
 .card_content {
     position: relative;
     display: grid;
     grid-template-rows: 201px min-content min-content min-content ;
-    padding: 0;
-    margin: 0;
+    padding-left: 35px;
+    padding-right: 35px;
 }
-
-
 
 .background_gradient_yellow {
     background: linear-gradient(to bottom, #FDC624, #E6C434);
@@ -79,8 +49,6 @@
 .background_gradient_grey {
     background: linear-gradient(to bottom, #BFCEDC, #939FB3);
 }
-
-
 
 .img__snail {
     justify-self: center;
@@ -119,7 +87,7 @@
     font-weight: 500;
     font-size: 21px;
     color: #fff;
-    margin-bottom: 2px;
+
 }
 
 .card__subtitle {
@@ -142,12 +110,14 @@
     font-size: 16px;
     color: #fff;
 }
+
 .card__amount {
     font-style: normal;
     font-weight: 700;
     font-size: 67px;
     color: #fff;
     line-height: 1.15;
+    padding-left: 3px;
 }
 
 .card__features {
@@ -155,34 +125,20 @@
     display: flex;
     flex-direction: column;
     justify-items: flex-start;
-    padding-left: 12px;
-    margin-top: 8px;
-    gap: 14px;
+    padding-left: 14px;
+    margin-top: 10px;
+    gap: 16px;
 }
  
 .card__features-item {
-    
     font-weight: 500;
     font-size: 14px;
     color: #fff;
-    list-style-type: "✓";
-    padding-left: 8px;    
-}
-
-/* ::marker {
-  content: url('./images/check.svg');
-} */
-
-.card__button-wrapper {
-    position: relative;
-  
-  align-items: flex-end;
-  justify-self: center;
-  align-self: self-end;
+    list-style-image: url('../images/check.svg');
+    padding-left: 6px;    
 }
 
 .card-button {
-    
     position: relative; 
     display: flex;
     align-items: center;
@@ -191,11 +147,12 @@
     font-weight: 500;
     font-size: 14px;
 
-    
-    
-    
-    margin-top: 20px;
     height: 40px;
+  
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;;
     
     border-radius: 2px;
     border: 2px solid white;
@@ -209,24 +166,73 @@
      color: rgba(0,0,0,0.3)
 }
 
+
+.background_banner_gradient_yellow {
+    background: linear-gradient(to right, #E6C434, #E6C434);
+}
+
+.background_banner_gradient_turquoise {
+    background: linear-gradient(to right, #3DCAD4, #3DCAD4);
+}
+
+.background_banner_gradient_blue {
+    background: linear-gradient(to right, #63D6FE, #5DD4F8);
+}
+
+.background_banner_gradient_grey {
+    background: linear-gradient(to right, #939FB3, #939FB3);
+}
+
+
 .banner {
     position: absolute;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-content: center;
+    width: 100%;
     height: 31px;
-    
-    padding-left:unset;
-    padding-right:unset;
+}
+
+.banner__off {
+    display: none;
+}
+
+.img__star {
+    justify-self: center;
+    width: 12px;    
 }
 
 .banner_text {
-    
+    display: block;
+    padding-left: 5px;
     font-weight: 500;
     font-size: 14px;
     color: #fff;
-    
+    align-self: center;
+}
+
+
+.pricing__title {
+    display: block;
+    align-self: center;
+    justify-self: center;
+    padding-top: 137px;
+    padding-bottom: 68px;
+
+}
+
+.pricing__title-header {
+    font-weight: 700;
+    font-size: 38px;
+    color: #161D25;
+    padding-bottom: 13px;
+}
+
+.pricing__title-text {
+    justify-self: center;
+    font-weight: 400;
+    font-size: 22px;
+    color: #5D7085;
 }
 
 
