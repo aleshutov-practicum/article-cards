@@ -1,240 +1,230 @@
 .lots__card-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 6px;
-    padding-bottom: 190px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  padding-bottom: 190px;
 }
 
 .lots__card-list-item {
-    position: relative;
-    display: block;
-    text-decoration: none;
+  position: relative;
+  display: block;
+  text-decoration: none;
 }
 
 .card-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .card {
-    position:relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-    min-height: 601px;
-    width: 266px;
+  min-height: 601px;
+  width: 266px;
 }
 
 .card_content {
-    position: relative;
-    display: grid;
-    grid-template-rows: 201px min-content min-content min-content ;
-    padding-left: 35px;
-    padding-right: 35px;
+  position: relative;
+  display: grid;
+  grid-template-rows: 201px min-content min-content min-content;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .background_gradient_yellow {
-    background: linear-gradient(to bottom, #FDC624, #E6C434);
+  background: linear-gradient(to bottom, #fdc624, #e6c434);
 }
 
 .background_gradient_turquoise {
-    background: linear-gradient(to bottom, #55DCE7, #3DCAD4);
+  background: linear-gradient(to bottom, #55dce7, #3dcad4);
 }
 
 .background_gradient_blue {
-    background: linear-gradient(to bottom, #6BDFFF, #3DACFC);
+  background: linear-gradient(to bottom, #6bdfff, #3dacfc);
 }
 
 .background_gradient_grey {
-    background: linear-gradient(to bottom, #BFCEDC, #939FB3);
+  background: linear-gradient(to bottom, #bfcedc, #939fb3);
 }
 
 .img__snail {
-    justify-self: center;
-    width: auto;
-    margin-top: 72px;
+  justify-self: center;
+  width: auto;
+  margin-top: 72px;
 }
 
 .img__car {
-    justify-self: center;
-    width: auto;
-    margin-top: 64px;
+  justify-self: center;
+  width: auto;
+  margin-top: 64px;
 }
 
 .img__minibus {
-    justify-self: center;
-    width: auto;
-    margin-top: 48px;
+  justify-self: center;
+  width: auto;
+  margin-top: 48px;
 }
 
 .img__cannon {
-    justify-self: center;
-    width: auto;
-    margin-top: 66.15px;
+  justify-self: center;
+  width: auto;
+  margin-top: 66.15px;
 }
 
 .card__header {
-    display: flex;
-    flex-direction: column;
-    justify-items: start;
-    align-items: start;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-items: start;
+  width: 100%;
 }
 
 .card__title {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 21px;
-    color: #fff;
-
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  color: #fff;
 }
 
 .card__subtitle {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
 }
 
 .card__price {
-   display: grid;
-   grid-template-columns: 10px auto;
-   margin-top: 29px;
-
+  display: grid;
+  grid-template-columns: 10px auto;
+  margin-top: 29px;
 }
 
 .card__curency {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
 }
 
 .card__amount {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 67px;
-    color: #fff;
-    line-height: 1.15;
-    padding-left: 3px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67px;
+  color: #fff;
+  line-height: 1.15;
+  padding-left: 3px;
 }
 
 .card__features {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-items: flex-start;
-    padding-left: 14px;
-    margin-top: 10px;
-    gap: 16px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  padding-left: 14px;
+  margin-top: 10px;
+  gap: 16px;
 }
- 
+
 .card__features-item {
-    font-weight: 500;
-    font-size: 14px;
-    color: #fff;
-    list-style-image: url('../images/check.svg');
-    padding-left: 6px;    
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  list-style-image: url("../images/check.svg");
+  padding-left: 6px;
 }
 
 .card-button {
-    position: relative; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-weight: 500;
-    font-size: 14px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
 
-    height: 40px;
-  
-    margin-top: 20px;
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-bottom: 35px;;
-    
-    border-radius: 2px;
-    border: 2px solid white;
-    background: transparent;
-    transition: background 0.3s, color 0.3s;
-    cursor: pointer;
+  height: 40px;
+
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+
+  border-radius: 2px;
+  border: 2px solid white;
+  background: transparent;
+  transition: background 0.3s, color 0.3s;
+  cursor: pointer;
 }
 
 .card-button:hover {
-    background: white;
-     color: rgba(0,0,0,0.3)
+  background: white;
+  color: rgba(0, 0, 0, 0.3);
 }
 
-
 .background_banner_gradient_yellow {
-    background: linear-gradient(to right, #E6C434, #E6C434);
+  background: linear-gradient(to right, #e6c434, #e6c434);
 }
 
 .background_banner_gradient_turquoise {
-    background: linear-gradient(to right, #3DCAD4, #3DCAD4);
+  background: linear-gradient(to right, #3dcad4, #3dcad4);
 }
 
 .background_banner_gradient_blue {
-    background: linear-gradient(to right, #63D6FE, #5DD4F8);
+  background: linear-gradient(to right, #63d6fe, #5dd4f8);
 }
 
 .background_banner_gradient_grey {
-    background: linear-gradient(to right, #939FB3, #939FB3);
+  background: linear-gradient(to right, #939fb3, #939fb3);
 }
 
-
 .banner {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    height: 31px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 31px;
 }
 
 .banner__off {
-    display: none;
+  display: none;
 }
 
 .img__star {
-    justify-self: center;
-    width: 12px;    
+  justify-self: center;
+  width: 12px;
 }
 
 .banner_text {
-    display: block;
-    padding-left: 5px;
-    font-weight: 500;
-    font-size: 14px;
-    color: #fff;
-    align-self: center;
+  display: block;
+  padding-left: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  align-self: center;
 }
 
-
 .pricing__title {
-    display: block;
-    align-self: center;
-    justify-self: center;
-    padding-top: 137px;
-    padding-bottom: 68px;
-
+  display: block;
+  align-self: center;
+  justify-self: center;
+  padding-top: 137px;
+  padding-bottom: 68px;
 }
 
 .pricing__title-header {
-    font-weight: 700;
-    font-size: 38px;
-    color: #161D25;
-    padding-bottom: 13px;
+  font-weight: 700;
+  font-size: 38px;
+  color: #161d25;
+  padding-bottom: 13px;
 }
 
 .pricing__title-text {
-    justify-self: center;
-    font-weight: 400;
-    font-size: 22px;
-    color: #5D7085;
+  justify-self: center;
+  font-weight: 400;
+  font-size: 22px;
+  color: #5d7085;
 }
-
-
-
-
