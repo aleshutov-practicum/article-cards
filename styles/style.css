@@ -7,12 +7,8 @@
 }
 
 .lots__card-list-item {
-  position: relative;
-  display: block;
-  text-decoration: none;
-}
-
-.card-link {
+  display: flex;
+  /* display: block; */
   text-decoration: none;
 }
 
@@ -24,6 +20,7 @@
 
   min-height: 601px;
   width: 266px;
+  flex: 1 0 266px;
 }
 
 .card_content {
@@ -160,8 +157,9 @@
 }
 
 .card-button:hover {
-  background: white;
-  color: rgba(0, 0, 0, 0.3);
+  background-color: white;
+  color: inherit;
+  mix-blend-mode: screen;
 }
 
 .background_banner_gradient_yellow {
